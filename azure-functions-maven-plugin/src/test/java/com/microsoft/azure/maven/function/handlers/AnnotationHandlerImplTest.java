@@ -108,7 +108,7 @@ public class AnnotationHandlerImplTest {
 
         @FunctionName(RAW_CUSTOM_BINDING_FUNCTION)
         public void rawCustomBindingMethod(
-            @CustomBinding(name = "foo", direction = "in", type = "custom") String customTriggerInput) {
+            @CustomBinding(name = "customTriggerInput", direction = "in", type = "custom") String customTriggerInput) {
         }
         
         @Target(ElementType.PARAMETER)
